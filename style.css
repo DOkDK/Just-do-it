@@ -1,0 +1,267 @@
+*{
+   box-sizing: border-box;
+}
+ body{
+   margin: 0;
+   font-family:  sans-serif;
+ }
+ .container{
+   margin: 0 auto;
+   max-width: 1370px;
+ }
+ header{
+   background-color: #f0ecec;
+   background-image: url(img/01.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ .logo{
+   width: 120px;
+   height: 100px;
+   border: 1px solid #000;
+   border-radius: 50%;
+ }
+ nav{
+   display: flex;
+   align-items: center;
+   padding: 20px 0 100px 0;
+   margin-bottom: 150px;
+ }
+ nav a:nth-child(1){
+   margin-right: auto;
+ }
+ nav a{
+   padding: 0 10px;
+   text-decoration: none;
+   color: #528313;
+   font-weight: 600;
+   font-size: 20px;
+   padding: 0 20px;
+
+ }
+ h2, h1{
+   text-align: center;
+   text-transform: uppercase;
+   color: #ffffff;
+   font-size: 40px;
+   margin: 0;
+ }
+ h1{
+   padding: 0px 0 100px 0px;
+   font-size: 60px;
+   color: #fff;
+ }
+ p{
+   /* color: #4f8844; */
+   color: #fff;
+   font-size: 24px;
+   text-align: center;
+ }
+ .btn{
+   padding: 20px 80px;
+   font-size: 30px;
+   font-weight: 900;
+   text-transform: uppercase;
+   border-radius: 20px;
+   background-color: #e38400bd;
+   color: #4ec703;
+   border: 1px solid #e38400bd;
+ }
+ .head button{
+ margin-bottom:230px ;
+ }
+ .head_contain{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ /* Header END*/
+
+ .grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 235px;
+   justify-content: center;
+   justify-items: center;
+ }
+ .grid h2:nth-child(1){
+   grid-column: 1/4;
+   grid-row: 1/2;
+ }
+ .grid p:nth-child(2){
+   grid-column: 1/4;
+   grid-row: 2/3;
+ }
+ .glass img{
+   width: 350px;
+   height: 280px;
+ }
+ .glass p{
+   font-size: 24px;
+   font-weight: 500;
+ }
+ .glass p:nth-child(1){
+   text-transform: uppercase;
+ }
+ .grid_gallary{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   column-gap: 40px;
+ }
+ aside{
+   background-color: #702828;
+ }
+ .image-width{
+   width: 450px;
+   height: 430px;
+ }
+ h3{
+   color: #fff;
+   font-size: 20px;
+ }
+ .drink{
+   background-color:#f0ecec ;
+ }
+
+ .drink_grid{
+   display: grid;
+   grid-template-columns: 1fr 0.3fr 1fr;
+   gap: 40px;
+}
+.drink_grid p {
+   color: #702828;
+}
+.drink_grid h3{
+   color: #702828;
+}
+.drink_grid h2{
+   color: #702828;
+}
+
+ .drink_grid div:nth-child(1){
+   grid-column:1/4 ;
+   grid-row: 1/2;
+}
+ .drink_grid img:nth-child(2){
+   grid-column:2/3;
+   grid-row: 2/3;
+}
+ .drink_grid img:nth-child(3){
+   grid-column:2/3;
+   grid-row: 3/4;
+}
+ .drink_grid img:nth-child(4){
+   grid-column:2/3;
+   grid-row: 4/5;
+}
+ .drink_grid img:nth-child(5){
+   grid-column:2/3;
+   grid-row: 5/6;
+}
+ .drink_grid img:nth-child(6){
+   grid-column:2/3;
+   grid-row: 7/8;
+}
+ .drink_grid div:nth-child(7){
+   grid-column:1/2 ;
+   grid-row: 2/3;
+}
+ .drink_grid div:nth-child(8){
+   grid-column:3/4 ;
+   grid-row: 3/4;
+}
+ .drink_grid div:nth-child(9){
+   grid-column:1/2 ;
+   grid-row: 4/5;
+}
+ .drink_grid div:nth-child(10){
+   grid-column:3/4 ;
+   grid-row: 5/6;
+}
+ .drink_grid div:nth-child(6){
+   grid-column:3/4 ;
+   grid-row: 5/6;
+}
+ .img {
+   width: 280px;
+   height: 280px;
+   border: 1px solid #fff;
+   border-radius: 50%;
+   margin: 40px 0;
+ }
+.div1 p, .div1 h3{
+   text-align: right;
+}
+.div2 h3, .div2 p{
+   text-align: left;
+}
+.div3 p, .div3 h3{
+   text-align: right;
+}
+.div4 p, .div4 h3{
+   text-align: left;
+}
+
+.portret img{
+   width: 300px;
+   height: 300px;
+   border: solid 1px #fff;
+   border-radius: 50%;
+}
+.portret_flex{
+   display: flex;
+}
+.portret_flex div:nth-child(2){
+   padding: 0 235px;
+}
+
+footer{
+   background-image: url(img/pivovarskydum-1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.form{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 50px 50px 50px ;
+   gap: 20px;
+}
+.form input:nth-child(1){
+   grid-column:1/2 ;
+   grid-row: 1/2;
+}
+.form input:nth-child(2){
+   grid-column:1/2 ;
+   grid-row: 2/3;
+}
+.form input:nth-child(3){
+   grid-column:1/2 ;
+   grid-row: 3/4;
+}
+.form input:nth-child(4){
+   grid-column:2/3 ;
+   grid-row: 1/4;
+}
+.form input:nth-child(5){
+   grid-column: 1/3;
+   margin: 34px 535px;
+}
+.container h2{
+   padding-top: 50px;
+}
+ .foote{
+   padding: 40px 0;
+ }
+ .cont_wite{
+   background-color: #a34444;
+ }
+ .copi{
+   background-color: rgb(174, 174, 10);
+   text-align: center
+ }
+ .copi p{
+   color: #000;
+   padding: 50px 0;
+   font-size: 30px;
+ }
